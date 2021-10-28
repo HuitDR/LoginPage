@@ -1,0 +1,30 @@
+﻿<Window x:Class="MySQL_WPF_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MySQL_WPF_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid x:Name="Logisn" Visibility="Collapsed">
+            <Button Content="Login" HorizontalAlignment="Left" Margin="335,191,0,0" VerticalAlignment="Top" Click="Logins" Height="26" Width="180"/>
+            <Label Content="Login" HorizontalAlignment="Left" Margin="335,120,0,0" VerticalAlignment="Top"/>
+            <Label Content="Pass" HorizontalAlignment="Left" Margin="335,151,0,0" VerticalAlignment="Top" Width="40"/>
+            <TextBox x:Name="Loginn" HorizontalAlignment="Left" Margin="395,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <Button Content="Regin" HorizontalAlignment="Left" Margin="335,222,0,0" VerticalAlignment="Top" Height="24" Width="180" Click="Button_Click"/>
+            <PasswordBox x:Name="Passs" HorizontalAlignment="Left" Margin="395,155,0,0" VerticalAlignment="Top" Width="120"/>
+        </Grid>
+        <Grid x:Name="Register" Visibility="Visible">
+            <Label Content="Login" HorizontalAlignment="Left" Margin="335,120,0,0" VerticalAlignment="Top"/>
+            <Label Content="Pass" HorizontalAlignment="Left" Margin="335,151,0,0" VerticalAlignment="Top" Width="40"/>
+            <TextBox x:Name="Loginns" HorizontalAlignment="Left" Margin="395,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <Button Content="Regin" HorizontalAlignment="Left" Margin="335,215,0,0" VerticalAlignment="Top" Height="24" Width="180" Click="RegOnSys"/>
+            <TextBox x:Name="pas1" HorizontalAlignment="Left" Margin="395,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="pas2" HorizontalAlignment="Left" Margin="395,178,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Pass" HorizontalAlignment="Left" Margin="335,151,0,0" VerticalAlignment="Top" Width="40"/>
+            <Button Content="Back" HorizontalAlignment="Left" Margin="335,244,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+
+        </Grid>
+    </Grid>
+</Window>
